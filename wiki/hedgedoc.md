@@ -3,6 +3,17 @@
 [HedgeDoc](https://docs.hedgedoc.org/) lets you create real-time collaborative markdown notes.
 It is inspired by Hackpad, Etherpad and similar collaborative editors.
 
+## Running
+
+```sh
+cd container/hedgedoc
+# First time
+docker compose up
+# All other times
+docker compose start
+docker compose stop
+```
+
 ## Installation via Docker
 
 Basic docker-compose.yml file from the [official documentation](https://docs.hedgedoc.org/setup/docker/):
