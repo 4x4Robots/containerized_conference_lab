@@ -1,0 +1,3 @@
+#!sh
+docker run -it --publish 5000:80 --volume "/home/moritz/Documents/wbo-boards:/opt/app/server-data" lovasoa/wbo
+
